@@ -1,0 +1,13 @@
+package gps;
+
+struct gps_types
+{
+    double   timestamp;
+    double   latitude;
+    string   lat_dir; 
+    double   longitude;
+    string   long_dir;
+    double   altitude;
+    double   utmeasting;
+    double   utmnorthing;
+}
